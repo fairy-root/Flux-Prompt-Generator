@@ -1,6 +1,7 @@
 # **Flux-Prompt-Generator**
 
 **Flux Prompt Generator** is a **ComfyUI** node that provides a flexible and customizable prompt generator for generating detailed and creative prompts for image generation models.
+based on the work by [Aitrepreneur](https://huggingface.co/Aitrepreneur) found here [Flux Prompt Generator python code](https://huggingface.co/Aitrepreneur/FLUX-Prompt-Generator/blob/main/app.py) and modified to work with ComfyUI by [FairyRoot](https://github.com/fairy-root)
 
 ![Flux Prompt Generator](https://i.imgur.com/I3nQzaa.png "Displaying workflow")
 
