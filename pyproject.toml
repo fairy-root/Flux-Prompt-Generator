@@ -9,6 +9,6 @@ Repository = "https://github.com/fairy-root/Flux-Prompt-Generator"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "fairy-root"
 DisplayName = "Flux-Prompt-Generator"
 Icon = ""
