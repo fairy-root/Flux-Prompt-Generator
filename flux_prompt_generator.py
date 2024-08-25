@@ -18,7 +18,15 @@ def install_and_import(package):
 def load_json_file(file_name):
     file_path = os.path.join(os.path.dirname(__file__), "data", file_name)
     with open(file_path, "r") as file:
-        return json.load(file)
+        data = json.load(file)
+    
+    # Ensure data is a list (if your JSON structure is a list)
+    if isinstance(data, list):
+        # Remove duplicates by converting to a set and back to a list
+        data = list({json.dumps(item, sort_keys=True) for item in data})
+        data = [json.loads(item) for item in data]
+    
+    return data
 
 ARTFORM = load_json_file("artform.json")
 PHOTO_TYPE = load_json_file("photo_type.json")

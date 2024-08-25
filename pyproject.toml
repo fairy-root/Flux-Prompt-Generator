@@ -1,7 +1,7 @@
 [project]
 name = "flux-prompt-generator"
 description = "A flexible and customizable prompt generator for generating detailed and creative prompts for image generation models for ComfyUI"
-version = "1.0.0"
+version = "1.0.1"
 license = {file = "LICENSE"}
 
 [project.urls]
